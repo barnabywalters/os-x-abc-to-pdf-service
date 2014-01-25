@@ -1,14 +1,13 @@
-os-x-abc-to-pdf-service
+ABC notation to PDF Mac OS X service
 =======================
 
 An automator service for turning a text file containing ABC music notation into a PDF. Requires abcm2ps and ps2pdf.
 
 ## Installation
 
-1. Build/Install abcm2ps and ps2pdf.
+1. Build and install abcm2ps and ps2pdf, e.g. `brew install abcm2ps ghostscript` using [Homebrew](http://brew.sh)
 1. Download the Make PDF From ABC workflow
 1. Move `Make PDF From ABC` to `~/Library/Services/`
-1. Can't remember if it works right away or if you have to restart finder
 
 ## Use
 
